@@ -119,7 +119,7 @@ namespace AbstractOcclusion.WebGpuWater
                 Debug.LogWarning("WaterBuoyancy: no WaterVolume in the scene; object will not float.");
         }
 
-        void OnDestroy() => SharedQuery.Release(GetInstanceID());
+        void OnDestroy() => SharedQuery.Release(GetEntityId().GetHashCode());
 
         void BuildSamplePoints()
         {
@@ -199,8 +199,12 @@ namespace AbstractOcclusion.WebGpuWater
             BuildWorldPoints();
             // ONE batched surface query for every point (height + normal + velocity), through the water
             // height seam. objectWidth becomes the ripple LOD cut-off (0 = full spectrum). The results buffer
-            // is rented per-owner (GetInstanceID is stable + unique) so there is no per-frame allocation.
-            int ownerId = GetInstanceID();
+            // is rented per-owner (GetEntityId is stable + unique) so there is no per-frame allocation.
+            //
+            // Unity 6.5+ deprecates converting EntityId directly to int.
+            // WaterHeightQuery currently uses an int owner key, so use EntityId.GetHashCode()
+            // as a compatibility key until WaterHeightQuery is migrated to EntityId directly.
+            int ownerId = GetEntityId().GetHashCode();
             _results = SharedQuery.RentResults(ownerId, _worldPoints.Length);
             _body.SampleHeights(ownerId, objectWidth, _worldPoints, _results,
                                 WaterQueryFields.HeightNormalVelocity, ignoreInteractiveRipples);

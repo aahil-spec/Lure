@@ -387,7 +387,8 @@ namespace AbstractOcclusion.WebGpuWater
                 else needRipples = true;
             }
 
-            int owner = GetInstanceID();
+            // Unity 6.5+ deprecates Object.GetInstanceID(). WaterVolume.SampleHeights currently uses an int owner key, so derive a stable compatibility key from the new EntityId.
+            int owner = GetEntityId().GetHashCode();
             if (needRipples)
                 body.SampleHeights(owner, 0f, _worldPoints, _rippleSamples, TriggerFields, excludeInteractiveRipples: false);
             if (needAnalytic)

@@ -649,7 +649,7 @@ namespace AbstractOcclusion.WebGpuWater
             if (Time.unscaledTime < s_SceneLightCacheRefreshAt) return;
 
             s_SceneLightCacheRefreshAt = Time.unscaledTime + SceneLightCacheRefreshSeconds;
-            Light[] discoveredLights = Object.FindObjectsByType<Light>(FindObjectsSortMode.None);
+            Light[] discoveredLights = Object.FindObjectsByType<Light>(FindObjectsInactive.Include, FindObjectsSortMode.None);
             s_SceneLights.Clear();
             s_SceneLights.AddRange(discoveredLights);
         }
