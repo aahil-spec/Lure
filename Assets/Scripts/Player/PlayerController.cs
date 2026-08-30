@@ -49,20 +49,6 @@ public class PlayerController:MonoBehaviour
     public bool isInWater;
     float submersionDepth;
 
-    [Header("Underwater Visuals")]
-    public Color underwaterColor=new Color(0f,0.4f,0.6f,1f);
-    public float surfaceFogDensity=0.015f;
-    public float deepFogDensity=0.15f;
-    public float depthForMaxFog=20f;
-    public Volume underwaterPostProcessing;
-    public float transitionSpeed=5f;
-    bool defaultFog;
-    Color defaultFogColor;
-    float defaultFogDensity;
-    bool wasInWater;
-    Camera mainCam;
-    float defaultFarClipPlane;
-
 
     void Start()
     {
@@ -73,12 +59,6 @@ public class PlayerController:MonoBehaviour
         rb.freezeRotation=true;
 
         Cursor.lockState=CursorLockMode.Locked;
-        defaultFog=RenderSettings.fog;
-        defaultFogColor=RenderSettings.fogColor;
-        defaultFogDensity=RenderSettings.fogDensity;
-        RenderSettings.fogMode=FogMode.ExponentialSquared;
-        mainCam=Camera.main;
-        if (mainCam!=null) defaultFarClipPlane=mainCam.farClipPlane;
 
     }
     
@@ -108,7 +88,6 @@ public class PlayerController:MonoBehaviour
     {
         CheckGrounded();
         CheckWater();
-        UpdateVisuals();
 
         if (isInWater)
         {
@@ -155,36 +134,6 @@ public class PlayerController:MonoBehaviour
         
         }
         if (anim!=null)anim.SetBool("InWater",isInWater);
-    }
-    void UpdateVisuals()
-    {
-        if (isInWater&&!wasInWater)
-        {
-            RenderSettings.fog=true;
-            RenderSettings.fogColor=underwaterColor;
-            if (mainCam!=null) mainCam.farClipPlane=40f;
-            wasInWater=true;
-        }
-        else if (!isInWater&& wasInWater)
-        {
-            RenderSettings.fog=defaultFog;
-            RenderSettings.fogColor=defaultFogColor;
-            RenderSettings.fogDensity=defaultFogDensity;
-            if (mainCam!=null) mainCam.farClipPlane=defaultFarClipPlane;
-            wasInWater=false;
-        }
-        if (isInWater)
-        {
-            float depthPercentage=Mathf.Clamp01(submersionDepth/depthForMaxFog);
-            RenderSettings.fogDensity=Mathf.Lerp(surfaceFogDensity,deepFogDensity,depthPercentage);
-
-        }
-        if (underwaterPostProcessing!=null)
-        {
-            float targetWeight=isInWater?1f:0f;
-            underwaterPostProcessing.weight=Mathf.Lerp(underwaterPostProcessing.weight,targetWeight,Time.fixedDeltaTime*transitionSpeed);
-
-        }
     }
     void ApplyBuoyancy()
     {
