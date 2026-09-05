@@ -48,6 +48,10 @@ public class PlayerController:MonoBehaviour
 
     public bool isInWater;
     float submersionDepth;
+    
+    [Header("Underwater Visuals")]
+    public Volume underwaterPostProcessing;
+    public float transitionSpeed=5f;
 
 
     void Start()
@@ -88,6 +92,7 @@ public class PlayerController:MonoBehaviour
     {
         CheckGrounded();
         CheckWater();
+        UpdateVisuals();
 
         if (isInWater)
         {
@@ -121,7 +126,7 @@ public class PlayerController:MonoBehaviour
 
         RaycastHit hit;
 
-        if (Physics.Raycast(origin,Vector3.down,out hit, 200f,waterLayer))
+        if (Physics.Raycast(origin,Vector3.down,out hit, 2000f,waterLayer))
         {
             float depth=hit.point.y-t.position.y;
             isInWater=depth>0f;
@@ -189,4 +194,13 @@ public class PlayerController:MonoBehaviour
         velocity.y=jumpForce;
         rb.linearVelocity=velocity;
     }
+    void UpdateVisuals()
+    {
+        if(underwaterPostProcessing !=null)
+        {
+            float targetWeight=isInWater?1f:0f;
+            underwaterPostProcessing.weight=Mathf.Lerp(underwaterPostProcessing.weight,targetWeight,Time.fixedDeltaTime*transitionSpeed);
+        }
+    }
 }
+
