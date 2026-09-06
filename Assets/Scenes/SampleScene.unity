@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -181,6 +185,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -676,6 +684,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (11)
@@ -1189,7 +1205,7 @@ Transform:
   m_GameObject: {fileID: 103860215}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 495, y: 30, z: 494}
+  m_LocalPosition: {x: 495, y: 26, z: 494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1229,6 +1245,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -1276,6 +1296,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1430,6 +1454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -1476,6 +1504,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1782,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1832,6 +1868,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2557,6 +2597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2607,6 +2651,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3617,6 +3665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3667,6 +3719,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3989,6 +4045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -4039,6 +4099,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4671,6 +4735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -4717,6 +4785,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4963,6 +5035,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (6)
@@ -5435,7 +5515,7 @@ Transform:
   m_GameObject: {fileID: 501248614}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.68935466, z: -0, w: 0.7244241}
-  m_LocalPosition: {x: 415.81354, y: -0.099999905, z: 319.47934}
+  m_LocalPosition: {x: 415.81354, y: -4.1, z: 319.47934}
   m_LocalScale: {x: 1.6894, y: 1.6894, z: 1.6894}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5889,6 +5969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -5935,6 +6019,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6027,6 +6115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -6077,6 +6169,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6614,6 +6710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -6664,6 +6764,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7243,6 +7347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -7291,6 +7399,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -7318,6 +7430,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -7367,6 +7483,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -7394,6 +7514,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -7445,6 +7569,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7929,6 +8057,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (4)
@@ -8471,6 +8607,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (8)
@@ -9306,6 +9450,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (9)
@@ -9436,6 +9588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -9482,6 +9638,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9750,6 +9910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -9800,6 +9964,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9886,6 +10054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -9936,6 +10108,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10152,6 +10328,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (5)
@@ -10811,6 +10995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -10861,6 +11049,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11561,6 +11753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -11611,6 +11807,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12045,6 +12245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -12095,6 +12299,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13088,6 +13296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -13134,6 +13346,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13221,6 +13437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -13273,6 +13493,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13294,6 +13518,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -13341,6 +13569,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13517,6 +13749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalPosition.x
       value: -363.4987
@@ -13557,6 +13793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13573,6 +13813,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -13624,6 +13868,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13808,7 +14056,7 @@ Transform:
   m_GameObject: {fileID: 1133057049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 342.4, y: 34.04, z: 526}
+  m_LocalPosition: {x: 324.06, y: 32.864, z: 244.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13873,9 +14121,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16
   waterCheckDistance: 50
-  buoyancyStrength: 15
+  buoyancyStrength: 0
   maxBuoyancyForce: 20
-  waterDrag: 2
+  waterDrag: 3
   isInWater: 0
   underwaterPostProcessing: {fileID: 1810081990}
   transitionSpeed: 5
@@ -13895,6 +14143,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -13946,6 +14198,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14965,7 +15221,7 @@ Transform:
   m_GameObject: {fileID: 1326326102}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 676.13257, y: 1.10007, z: 443.3233}
+  m_LocalPosition: {x: 676.13257, y: -2.89993, z: 443.3233}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15246,6 +15502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -15296,6 +15556,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15377,6 +15641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -15427,6 +15695,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -16707,6 +16979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -16759,6 +17035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16780,6 +17060,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -16827,6 +17111,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -16941,6 +17229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -16993,6 +17285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17014,6 +17310,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -17063,6 +17363,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17087,6 +17391,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (2)
@@ -17345,6 +17657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -17395,6 +17711,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -17476,6 +17796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -17522,6 +17846,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -17778,6 +18106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -17828,6 +18160,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -17961,6 +18297,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (3)
@@ -18339,6 +18683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -18385,6 +18733,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -18544,6 +18896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -18590,6 +18946,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -19104,6 +19464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -19154,6 +19518,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -19735,6 +20103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -19787,6 +20159,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19808,6 +20184,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -19861,6 +20241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19887,6 +20271,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -19938,6 +20326,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20622,6 +21014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -20672,6 +21068,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20751,58 +21151,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 99614073485166376, guid: 94f6ad5cbfa2225449f7a5b5cac83d5f, type: 3}
   m_PrefabInstance: {fileID: 1705108616}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1759062205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1759062207}
-  - component: {fileID: 1759062206}
-  m_Layer: 0
-  m_Name: Terrain (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!154 &1759062206
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759062205}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_TerrainData: {fileID: 0}
-  m_EnableTreeColliders: 1
---- !u!4 &1759062207
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759062205}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766405215
 GameObject:
   m_ObjectHideFlags: 0
@@ -20840,7 +21188,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1000, y: 1, z: 1000}
+  m_Size: {x: 650, y: 1, z: 630}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1766405217
 MeshFilter:
@@ -20859,7 +21207,7 @@ Transform:
   m_GameObject: {fileID: 1766405215}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 505, y: 30, z: 505}
+  m_LocalPosition: {x: 488, y: 26, z: 563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21076,6 +21424,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (1)
@@ -21990,6 +22346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1810081991}
   - component: {fileID: 1810081990}
+  - component: {fileID: 1810081992}
   m_Layer: 0
   m_Name: Undewater_Volume
   m_TagString: Untagged
@@ -22009,7 +22366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
-  m_IsGlobal: 1
+  m_IsGlobal: 0
   priority: 0
   blendDistance: 0
   weight: 0
@@ -22023,12 +22380,33 @@ Transform:
   m_GameObject: {fileID: 1810081989}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 725.19836, y: 86.175835, z: 506.33002}
+  m_LocalPosition: {x: 491, y: -23.7, z: 581}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1810081992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810081989}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 630, y: 100, z: 670}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1811877490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 99614073485166376, guid: 94f6ad5cbfa2225449f7a5b5cac83d5f, type: 3}
@@ -22302,7 +22680,7 @@ Transform:
   m_GameObject: {fileID: 1833947978}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 486.74814, y: -7.5999994, z: 631.24365}
+  m_LocalPosition: {x: 486.74814, y: -11.599999, z: 631.24365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22671,6 +23049,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post
@@ -22733,6 +23119,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (7)
@@ -23209,6 +23603,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326326103}
     m_Modifications:
+    - target: {fileID: 252588268248631561, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703811009817636027, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3563431892844068337, guid: 3f3fe03e033d43a49ba2cfb47082b18f, type: 3}
       propertyPath: m_Name
       value: lamp_post (10)
@@ -23339,6 +23741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -23391,6 +23797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23412,6 +23822,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -23463,6 +23877,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23838,6 +24256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -23888,6 +24310,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24134,6 +24560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -24184,6 +24614,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24719,6 +25153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -24767,6 +25205,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -24794,6 +25236,10 @@ PrefabInstance:
     - target: {fileID: 819725848013875078, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_Name
       value: Island (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
@@ -24845,6 +25291,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24936,6 +25386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -24986,6 +25440,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -25504,6 +25962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -25550,6 +26012,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -25737,6 +26203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4) Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31059003
@@ -25783,6 +26253,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -26459,6 +26933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2127252097606514761, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -26509,6 +26987,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3026842878747942803, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287715998310997499, guid: bbf6cf1282b1b5c439bf9cd72f4c4656, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -26577,7 +27059,6 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1759062207}
   - {fileID: 1133057053}
   - {fileID: 194756678}
   - {fileID: 505542976}
