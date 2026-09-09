@@ -15,7 +15,7 @@ public class PlayerController:MonoBehaviour
     [Header("Camera Toggle")]
     public Transform cameraTransform;
     public Vector3 firstPersonPos=new Vector3(0f,0.7f,0.3f);
-    public Vector3 thirdPersonPos=new Vector3(0f,1.5f,-4f);
+    public Vector3 thirdPersonPos=new Vector3(0f,3f,-4f);
     public bool isFirstPerson=false;
     public float camTransitionSpeed=8f;
 
@@ -106,18 +106,24 @@ public class PlayerController:MonoBehaviour
     }
 
     void LookAround()
+{
+    rotationX += Input.GetAxis("Mouse X") * sensitivity;
+    rotationY += Input.GetAxis("Mouse Y") * sensitivity;
+
+    rotationY = Mathf.Clamp(rotationY, -10f, 70f);
+
+
+    t.localRotation = Quaternion.Euler(0, rotationX, 0);
+    if (cameraTransform != null)
     {
-
-        rotationX+=Input.GetAxis("Mouse X")*sensitivity;
-        rotationY+=Input.GetAxis("Mouse Y")*sensitivity;
-
-        t.localRotation=Quaternion.Euler(-rotationY,rotationX,0);
-
+        float tiltOffset=isFirstPerson?0f:15f;
+        cameraTransform.localRotation = Quaternion.Euler(-rotationY+tiltOffset, 0, 0);
     }
+}
     void CheckGrounded()
     {
         Vector3 origin=new Vector3(t.position.x,capsule.bounds.min.y+0.1f,t.position.z);
-        isGrounded=Physics.Raycast(origin,Vector3.down,groundCheckDistance+0.1f,groundLayer);
+        isGrounded=Physics.CheckSphere(origin,0.25f,groundLayer);
     
     }
     void CheckWater()

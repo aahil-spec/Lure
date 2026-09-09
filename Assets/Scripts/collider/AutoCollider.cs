@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class AutoCollider:MonoBehaviour
 {
-    [ContextMenu("Generate City Colliders")]
-    void GenerateColliders()
+    void Awake()
     {
         MeshFilter[]meshFilters=GetComponentsInChildren<MeshFilter>();
         foreach (var mf in meshFilters)
@@ -14,7 +13,6 @@ public class AutoCollider:MonoBehaviour
                 mc.convex=false;
             }
         }
-        Debug.Log("Colliders generated for " + meshFilters.Length + " objects!");
     }
     
 }
