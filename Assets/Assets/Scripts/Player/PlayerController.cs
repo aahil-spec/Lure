@@ -12,19 +12,6 @@ public class PlayerController:MonoBehaviour
     Rigidbody rb;
     public Animator anim;
 
-    [Header("Camera Toggle")]
-    public Transform cameraTransform;
-    public Vector3 firstPersonPos=new Vector3(0f,0.7f,0.3f);
-    public Vector3 thirdPersonPos=new Vector3(0f,3f,-4f);
-    public bool isFirstPerson=false;
-    public float camTransitionSpeed=8f;
-
-    [Header("Player Rotation")]
-    public float sensitivity=1f;
-
-    //mouse input variables
-    float rotationX;
-    float rotationY;
     [Header("Land Movement")]
     public float walkSpeed=4f;
     public float sprintSpeed=7f;
@@ -62,30 +49,14 @@ public class PlayerController:MonoBehaviour
 
         rb.freezeRotation=true;
 
-        Cursor.lockState=CursorLockMode.Locked;
 
     }
     
     void Update()
     {
-        LookAround();
-    
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Cursor.lockState=CursorLockMode.None;
-        }
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
-        }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            isFirstPerson=!isFirstPerson;
-        }
-        if (cameraTransform!=null)
-        {
-            Vector3 targetPos=isFirstPerson?firstPersonPos:thirdPersonPos;
-            cameraTransform.localPosition=Vector3.Lerp(cameraTransform.localPosition,targetPos,Time.deltaTime*camTransitionSpeed);
         }
     }
     void FixedUpdate()
@@ -104,22 +75,6 @@ public class PlayerController:MonoBehaviour
             MoveLand();
         }
     }
-
-    void LookAround()
-{
-    rotationX += Input.GetAxis("Mouse X") * sensitivity;
-    rotationY += Input.GetAxis("Mouse Y") * sensitivity;
-
-    rotationY = Mathf.Clamp(rotationY, -10f, 70f);
-
-
-    t.localRotation = Quaternion.Euler(0, rotationX, 0);
-    if (cameraTransform != null)
-    {
-        float tiltOffset=isFirstPerson?0f:15f;
-        cameraTransform.localRotation = Quaternion.Euler(-rotationY+tiltOffset, 0, 0);
-    }
-}
     void CheckGrounded()
     {
         Vector3 origin=new Vector3(t.position.x,capsule.bounds.min.y+0.1f,t.position.z);
