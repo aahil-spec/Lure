@@ -15,7 +15,7 @@ public class PlayerController:MonoBehaviour
     [Header("Land Movement")]
     public float walkSpeed=4f;
     public float sprintSpeed=7f;
-    public float jumpForce=6f;
+    public float jumpForce=4f;
 
     [Header("Ground Check")]
     public LayerMask groundLayer;
@@ -35,10 +35,6 @@ public class PlayerController:MonoBehaviour
 
     public bool isInWater;
     float submersionDepth;
-    
-    [Header("Underwater Visuals")]
-    public Volume underwaterPostProcessing;
-    public float transitionSpeed=5f;
 
 
     void Start()
@@ -63,7 +59,6 @@ public class PlayerController:MonoBehaviour
     {
         CheckGrounded();
         CheckWater();
-        UpdateVisuals();
 
         if (isInWater)
         {
@@ -116,7 +111,8 @@ public class PlayerController:MonoBehaviour
         float h=Input.GetAxisRaw("Horizontal");
         float v=Input.GetAxisRaw("Vertical");
 
-        Vector3 moveDir=(t.forward *v+t.right*h).normalized;
+        Transform cam=Camera.main.transform;
+        Vector3 moveDir=(cam.forward *v+cam.right*h).normalized;
         Vector3 velocity=rb.linearVelocity;
 
         velocity.x=moveDir.x*walkSpeed;
@@ -154,14 +150,6 @@ public class PlayerController:MonoBehaviour
         Vector3 velocity=rb.linearVelocity;
         velocity.y=jumpForce;
         rb.linearVelocity=velocity;
-    }
-    void UpdateVisuals()
-    {
-        if(underwaterPostProcessing !=null)
-        {
-            float targetWeight=isInWater?1f:0f;
-            underwaterPostProcessing.weight=Mathf.Lerp(underwaterPostProcessing.weight,targetWeight,Time.fixedDeltaTime*transitionSpeed);
-        }
     }
 }
 

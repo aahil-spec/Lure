@@ -1,62 +1,49 @@
 using UnityEngine;
 
-public class CameraManager:MonoBehaviour
+public class CameraManager : MonoBehaviour
 {
-    [Header("Target")]
+    [Header("References")]
     public Transform playerBody;
+    public Transform cameraPivot;
 
     [Header("Settings")]
-    public float mouseSensitivity=2f;
-    public KeyCode switchViewKey=KeyCode.V;
+    public float mouseSensitivity = 2f;
+    public Vector3 thirdPersonOffset = new Vector3(0.6f, 0f, -3.5f);
 
-    [Header("Offsets")]
-    public float pivotHeight=1.4f;
-    public Vector3 firstPersonOffset=new Vector3(0f,0f,0.15f);
-    public Vector3 thirdPersonOffset=new Vector3(0.5f,0f,-3f);
-
-    private bool isFirstPerson=false;
-    private float xRotation=0f;
-    private float yRotation=0f;
+    private float xRotation = 0f;
+    private bool isFirstPerson = false;
 
     void Start()
     {
-        LockMouse();
+        Cursor.lockState = CursorLockMode.Locked;
     }
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) LockMouse();
-        if (Input.GetKeyDown(KeyCode.Escape)) UnlockMouse();
+        if (Input.GetMouseButtonDown(0)|| Input.GetMouseButtonDown(1)) Cursor.lockState=CursorLockMode.Locked;
+        if (Input.GetKeyDown(KeyCode.Escape)) Cursor.lockState=CursorLockMode.None;
 
-        if (Cursor.lockState==CursorLockMode.Locked)
+        if (Cursor.lockState !=CursorLockMode.Locked)return;
+
+        float mouseX=Input.GetAxis("Mouse X")*mouseSensitivity;
+        float mouseY=Input.GetAxis("Mouse Y")*mouseSensitivity;
+
+        playerBody.Rotate(Vector3.up*mouseX);
+
+        xRotation-=mouseY;
+        xRotation=Mathf.Clamp(xRotation,-80f,80f);
+        cameraPivot.localRotation=Quaternion.Euler(xRotation,0f,0f);
+
+        if (Input.GetKeyDown(KeyCode.V)) isFirstPerson=!isFirstPerson;
+
+        if (isFirstPerson)
         {
-            if (Input.GetKeyDown(switchViewKey)) isFirstPerson=!isFirstPerson;
-            float mouseX=Input.GetAxis("Mouse X")*mouseSensitivity;
-            float mouseY=Input.GetAxis("Mouse Y")*mouseSensitivity;
-
-            yRotation+=mouseX;
-            xRotation-=mouseY;
-            xRotation=Mathf.Clamp(xRotation,-80f,80f);
-            transform.rotation=Quaternion.Euler(xRotation,yRotation,0);
-            if (playerBody!=null)
-            {
-                playerBody.rotation=Quaternion.Euler(0,yRotation,0);
-
-            }
-            Vector3 currentOffset=isFirstPerson?firstPersonOffset:thirdPersonOffset;
-            Vector3 pivotPoint=playerBody.position+Vector3.up*pivotHeight;
-            transform.position=pivotPoint+transform.rotation*currentOffset;
-
+            transform.localPosition=Vector3.zero;
         }
+        else
+        {
+            transform.localPosition=thirdPersonOffset;
+        }
+        transform.localRotation=Quaternion.identity;
     }
-    void LockMouse()
-    {
-        Cursor.lockState=CursorLockMode.Locked;
-        Cursor.visible=false;
-    }
-    void UnlockMouse()
-    {
-        Cursor.lockState=CursorLockMode.None;
-        Cursor.visible=true;
-    }
-    
 }
