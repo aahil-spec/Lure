@@ -23,7 +23,7 @@ public class PlayerInteract:MonoBehaviour
                 ItemPickup item=hit.collider.GetComponent<ItemPickup>();
                 if (item!=null) item.PickUp(inventory);
 
-            ObjectiveMachine machine=hit.collider.GetComponent<ObjectiveMachine>();
+            RadioTower machine=hit.collider.GetComponent<RadioTower>();
             if (machine!=null) machine.Interact(inventory);
             }
         }

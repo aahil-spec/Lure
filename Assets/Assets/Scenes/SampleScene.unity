@@ -119,6 +119,85 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11288247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11288248}
+  - component: {fileID: 11288250}
+  - component: {fileID: 11288249}
+  m_Layer: 5
+  m_Name: PromptText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &11288248
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11288247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1316424192}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -15}
+  m_SizeDelta: {x: 800, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &11288249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11288247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &11288250
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11288247}
+  m_CullTransparentMesh: 1
 --- !u!1 &49323657
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 49323661}
-  playerGoggles: {fileID: -6689036041284674117, guid: d7b9ebc37a1a6a84d8deb5bc5f51881d, type: 3}
+  hiddenItems:
+  - {fileID: 882581573}
   scrapStored: 0
 --- !u!95 &49323661
 Animator:
@@ -1373,8 +1453,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 2.2}
 --- !u!1 &200808798
 GameObject:
   m_ObjectHideFlags: 0
@@ -7295,8 +7375,87 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 2.2}
+--- !u!1 &455330628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455330629}
+  - component: {fileID: 455330631}
+  - component: {fileID: 455330630}
+  m_Layer: 5
+  m_Name: NotificationText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &455330629
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455330628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1316424192}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -15}
+  m_SizeDelta: {x: 800, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &455330630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455330628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5169811, g: 0.03804195, b: 0.03804195, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &455330631
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455330628}
+  m_CullTransparentMesh: 1
 --- !u!4 &475385244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 632534965383370087, guid: 19beeb894b6cad1489ae12f2f9b6740a, type: 3}
@@ -7469,8 +7628,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 2.2}
 --- !u!1 &505542973
 GameObject:
   m_ObjectHideFlags: 0
@@ -9215,8 +9374,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 2.2}
 --- !u!114 &918075428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9230,7 +9389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 3579238973444257954}
-  playerGoggles: {fileID: 1735116684}
+  hiddenItems:
+  - {fileID: 1735116684}
   scrapStored: 0
 --- !u!65 &918075429
 BoxCollider:
@@ -9574,8 +9734,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 2.2}
 --- !u!114 &1020271310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9738,7 +9898,7 @@ PrefabInstance:
       addedObject: {fileID: 1046778442}
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: aac30c5987f392445aee5ef83b1fe1a2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1046778443}
+      addedObject: {fileID: 1046778445}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: aac30c5987f392445aee5ef83b1fe1a2, type: 3}
 --- !u!1 &1046778441 stripped
 GameObject:
@@ -9766,7 +9926,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 10, z: 50}
   m_Center: {x: 0, y: 0, z: 20}
---- !u!114 &1046778443
+--- !u!114 &1046778445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10877,7 +11037,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 1254895437}
-  playerGoggles: {fileID: -6689036041284674117, guid: d7b9ebc37a1a6a84d8deb5bc5f51881d, type: 3}
+  hiddenItems:
+  - {fileID: 1020271308}
   scrapStored: 0
 --- !u!95 &1254895437
 Animator:
@@ -11206,6 +11367,7 @@ GameObject:
   - component: {fileID: 1316424190}
   - component: {fileID: 1316424189}
   - component: {fileID: 1316424193}
+  - component: {fileID: 1316424194}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -11291,6 +11453,8 @@ RectTransform:
   m_Children:
   - {fileID: 195655447}
   - {fileID: 1219377692}
+  - {fileID: 11288248}
+  - {fileID: 455330629}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11319,6 +11483,20 @@ MonoBehaviour:
   waterObject: {fileID: 1766405218}
   scrapMetalData: {fileID: 11400000, guid: cecd6df9578836e4191d30792582f34c, type: 2}
   interactionRange: 4
+--- !u!114 &1316424194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316424188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d9f23d257ff4148bb959054bdec44d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameUI
+  promptText: {fileID: 11288249}
+  notificationText: {fileID: 455330630}
 --- !u!1 &1373897422
 GameObject:
   m_ObjectHideFlags: 0
@@ -11677,7 +11855,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 1455817155}
-  playerGoggles: {fileID: -6689036041284674117, guid: d7b9ebc37a1a6a84d8deb5bc5f51881d, type: 3}
+  hiddenItems:
+  - {fileID: 199548526}
   scrapStored: 0
 --- !u!95 &1455817155
 Animator:
@@ -11933,8 +12112,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 2.2}
 --- !u!1 &1495765031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4621320400424407756, guid: 06763c2a7bd64e949a277f7c37e1dcdf, type: 3}
@@ -12750,7 +12929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 1651252204}
-  playerGoggles: {fileID: -6689036041284674117, guid: d7b9ebc37a1a6a84d8deb5bc5f51881d, type: 3}
+  hiddenItems:
+  - {fileID: 1482685725}
   scrapStored: 0
 --- !u!95 &1651252204
 Animator:
@@ -14195,7 +14375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 1856071232}
-  playerGoggles: {fileID: -6689036041284674117, guid: d7b9ebc37a1a6a84d8deb5bc5f51881d, type: 3}
+  hiddenItems:
+  - {fileID: 448224219}
   scrapStored: 0
 --- !u!95 &1856071232
 Animator:
@@ -14834,7 +15015,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootChest
   chestAnimator: {fileID: 2039814469}
-  playerGoggles: {fileID: -6689036041284674117, guid: d7b9ebc37a1a6a84d8deb5bc5f51881d, type: 3}
+  hiddenItems:
+  - {fileID: 493706933}
   scrapStored: 0
 --- !u!95 &2039814469
 Animator:

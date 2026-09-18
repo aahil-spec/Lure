@@ -3,7 +3,7 @@ using UnityEngine;
 public class LootChest:MonoBehaviour
 {
     public Animator chestAnimator;
-    public GameObject playerGoggles;
+    public GameObject[] hiddenItems;
 
     private bool playerInRange=false;
     private bool isOpened=false;
@@ -16,25 +16,36 @@ public class LootChest:MonoBehaviour
         {
             isOpened=true;
             chestAnimator.SetTrigger("Open");
-            if (playerGoggles!=null)
+            foreach (GameObject item in hiddenItems)
             {
-                playerGoggles.SetActive(true);
+                if (item!=null) item.SetActive(true);
             }
-            Debug.Log("Chest Opened! Goggles Equipped.");
+            GameUI.Instance.HidePrompt();
+            GameUI.Instance.ShowNotification("Chest Opened!");
         }
     }
     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))playerInRange=true;
+        if(other.CompareTag("Player") && !isOpened)
+        {
+            playerInRange=true;
+            GameUI.Instance.ShowPrompt("Press E to open Chest");
+        }
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) playerInRange=false;
+        if (other.CompareTag("Player"))
+        {
+            playerInRange=false;
+            GameUI.Instance.HidePrompt();
+
+        }
+
     }
-    public void DepositeScrap()
+    public void DepositScrap()
     {
         scrapStored++;
-        Debug.Log($"<color=yellow>Scrap Deposited! Chest now holds: {scrapStored}</color>");
+        GameUI.Instance.ShowNotification($"Scrap Deposited! ({scrapStored} total)");
     }
     
 }

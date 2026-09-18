@@ -69,7 +69,7 @@ public class HotbarSelector:MonoBehaviour
                         LootChest chest=hit.collider.GetComponent<LootChest>();
                         if (chest!=null)
                         {
-                            chest.DepositeScrap();
+                            chest.DepositScrap();
                             inventory.RemoveItem(scrapMetalData,1);
                         }
                     }
