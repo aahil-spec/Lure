@@ -8,6 +8,8 @@ public class LootChest:MonoBehaviour
     private bool playerInRange=false;
     private bool isOpened=false;
 
+    public int scrapStored=0;
+
     void Update()
     {
         if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.E))
@@ -28,6 +30,11 @@ public class LootChest:MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player")) playerInRange=false;
+    }
+    public void DepositeScrap()
+    {
+        scrapStored++;
+        Debug.Log($"<color=yellow>Scrap Deposited! Chest now holds: {scrapStored}</color>");
     }
     
 }
