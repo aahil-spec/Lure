@@ -33,7 +33,6 @@ Game Image: <img width="834" height="510" alt="Desktop Screenshot 2026 10 04 - 2
 
 
 How to play:
-
-No need downloading anything! I make it WebGL so it play directly in your browser. Just play it on my itch.io page here: [Link]
+No need downloading anything! I make it WebGL so it play directly in your browser. Just play it on my itch.io page here: https://aahil1.itch.io/lure
 
 (One tip: please press the fullscreen button in bottom corner before playing!)
